@@ -1,0 +1,29 @@
+/* Sea Pearl Bistro - custom stylesheet (extracted from main template) */
+body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8f9fa;
+            font-size: 16px; 
+            line-height: 1.7;
+        }
+        .serif-font {
+            font-family: 'Playfair Display', serif;
+        }
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f8f9fa;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #005f99;
+            border-radius: 8px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4cc9f0;
+        }
+        /* Map container styling */
+        #delivery-map {
+            height: 450px;
+            z-index: 10;
+        }
